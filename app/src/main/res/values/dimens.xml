@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- espacions de L7F V2-->
-    <dimen name="space4px">4dp</dimen>
-    <dimen name="space6px">6dp</dimen>
     <dimen name="space8px">8dp</dimen>
-    <dimen name="space10px">10dp</dimen>
-    <dimen name="space12px">12dp</dimen>
-    <dimen name="space14px">14dp</dimen>
     <dimen name="space16px">16dp</dimen>
     <dimen name="space20px">20dp</dimen>
     <dimen name="space24px">24dp</dimen>
-    <dimen name="space32px">32dp</dimen>
-    <dimen name="space40px">40dp</dimen>
-    <dimen name="space64px">64dp</dimen>
 
 
     <dimen name="actionIconSize">40dp</dimen>
