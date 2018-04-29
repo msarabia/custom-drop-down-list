@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="optionView" type="id"/>
+
+    <attr name="icon" format="reference"/>
+    <attr name="title" format="string"/>
+    <attr name="description" format="string"/>
+    <attr name="icon_padding" format="dimension"/>
+    <attr name="background_icon" format="color"/>
+
+    <declare-styleable name="ListGroup">
+        <attr name="orientation" format="integer"/>
+        <attr name="icon"/>
+        <attr name="title"/>
+        <attr name="description"/>
+        <attr name="icon_padding"/>
+        <attr name="background_icon"/>
+        <attr name="open" format="boolean"/>
+        <attr name="group" format="boolean"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="OptionView">
+        <attr name="icon"/>
+        <attr name="title"/>
+        <attr name="description"/>
+        <attr name="icon_padding"/>
+        <attr name="background_icon"/>
+    </declare-styleable>
+</resources>

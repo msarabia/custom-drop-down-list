@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:animateLayoutChanges="true"
+    tools:context="mx.com.alabs.progressbar.listadespleglabe.MainActivity">
+
+    <component.ListGroup
+        android:id="@+id/ayuda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_listgroup"
+        android:elevation="5dp"
+        app:background_icon="@color/colorAccent"
+        app:description="Dejanos tus comentarios"
+        app:icon="@drawable/ic_historial"
+        app:open="true"
+        app:group="true"
+        app:title="Ayuda del App">
+
+        <component.OptionView
+            android:id="@+id/optionView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:background_icon="@color/colorAccent"
+            app:description="Descripcion"
+            app:icon_padding="0dp"
+            app:title="Titulo"/>
+
+        <component.OptionView
+            android:id="@+id/prueba"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:background_icon="@color/colorAccent"
+            app:description="Descripcion"
+            app:icon_padding="0dp"
+            app:title="Titulo2"/>
+    </component.ListGroup>
+
+</LinearLayout>

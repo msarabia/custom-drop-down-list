@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground">
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="1px"
+        android:layout_marginLeft="@dimen/space8px"
+        android:layout_marginStart="@dimen/space8px"
+        android:background="@color/stroke"
+        app:layout_constraintLeft_toRightOf="@+id/icon"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/actionIconSize"
+        android:layout_height="@dimen/actionIconSize"
+        android:layout_marginLeft="@dimen/space20px"
+        android:layout_marginStart="@dimen/space8px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/bluelight" />
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/title_blue"
+        android:layout_width="0dp"
+        android:layout_height="16dp"
+        android:layout_marginBottom="@dimen/space8px"
+        android:layout_marginLeft="@dimen/space24px"
+        android:layout_marginRight="@dimen/space8px"
+        android:layout_marginTop="@dimen/space16px"
+        app:layout_constraintBottom_toTopOf="@+id/description"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/icon"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="demo"/>
+
+    <TextView
+        android:id="@+id/description"
+        style="@style/general_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space16px"
+        android:layout_marginEnd="@dimen/space8px"
+        android:layout_marginLeft="@dimen/space24px"
+        android:layout_marginRight="@dimen/space8px"
+        android:layout_marginStart="@dimen/space24px"
+        android:textColor="#7B8B91"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/icon"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:text="demo" />
+
+</android.support.constraint.ConstraintLayout>
